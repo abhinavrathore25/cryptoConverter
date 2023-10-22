@@ -1,0 +1,27 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    font-family: 'Playpen Sans', cursive !important;
+}
+
+.App {
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 30%;
+}
+
+.App h2,
+.App input,
+.App select,
+.App p {
+    margin-bottom: 12px;
+}
